@@ -58,10 +58,10 @@ width = 0.6
 plt.figure(figsize=(16, 8))
 
 
-plt.bar(x_indexes, orc, color="red", label="Orçado")
+plt.bar(x_indexes - width/2, orc, width, color="red", label="Orçado")
 
 
-plt.bar(x_indexes, real, color="#008fd5", label="Realizado")
+plt.bar(x_indexes + width/2, real, width, color="#008fd5", label="Realizado")
 
 
 plt.xticks(ticks=x_indexes, labels=mes)
