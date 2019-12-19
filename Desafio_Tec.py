@@ -56,6 +56,6 @@ plt.ylabel("$")
 plt.legend(loc='upper left')
 
 plt.tight_layout()
-plt.show()
-#plt.savefig('plotdata.png')
+#plt.show()
+plt.savefig('plotdata.png')
 
